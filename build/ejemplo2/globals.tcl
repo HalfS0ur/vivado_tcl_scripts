@@ -18,8 +18,8 @@
 
 # Change to your design and simulation files
 # These can also be overwritten on a specific simulation or synthesis script
-set DESIGN_TOP "counter"
-set SIMULATION_TOP "counter_tb"
+set DESIGN_TOP "top"
+#set SIMULATION_TOP "counter_tb"
 
 # Enable to use RECURSIVE search in forlders
 #set RECURSIVE_SEARCH "recursive"
