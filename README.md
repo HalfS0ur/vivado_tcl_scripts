@@ -38,6 +38,7 @@ Para correr estas herramientas se necesita de:
     - (opcional) Ejecutar `gtkwave -h`. Debe mostrar la ayuda de Make
   
 ## Estructura del proyecto:
+
     ```
     DIRECTORIO_DE_TRABAJO
             ├── build/
@@ -52,34 +53,28 @@ Para correr estas herramientas se necesita de:
             │   │    ├── create_project.tcl
             │   │    ├── globals.tcl
             │   │    ├── update_project.tcl
-            │   │    └── ...
+            │   │    └── ... #Archivos generados sin rastrear
             │   ├── ejercicio3
             │   │    ├── Makefile
             │   │    ├── create_project.tcl
             │   │    ├── globals.tcl
             │   │    ├── update_project.tcl
-            │   │    └── ...
+            │   │    └── ... #Archivos generados sin rastrear
             │   └── ...
             ├── scripts
             │   └── ...
-            ├── src/                     # Tracked source files
-            │   ├── design
-            │   │    ├── *.v
-            │   │    └── *.vhd
-            │   ├── testbench
-            │   │    ├── *.v
-            │   │    └── *.vhd
-            │   ├── blockdesign
-            │   │    ├── ui
-            │   │    ├── ip
-            │   │    ├── *.bd
-            │   │    └── ...
-            │   └── ...
-            └── vivado_project/          # Untracked generated files
-                ├── project_name.xpr
-                ├── project_name.cache/
-                ├── project_name.hw/
-                ├── project_name.sim/
+            └── src/                     # Tracked source files
+                ├── design
+                │    ├── *.v
+                │    └── *.vhd
+                ├── testbench
+                │    ├── *.v
+                │    └── *.vhd
+                ├── blockdesign
+                │    ├── ui
+                │    ├── ip
+                │    ├── *.bd
+                │    └── ...
                 └── ...
     ```
 
