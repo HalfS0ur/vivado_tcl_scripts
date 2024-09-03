@@ -48,7 +48,17 @@ Para correr estas herramientas se necesita de:
             │   │    ├── update_project.tcl
             │   │    └── ...
             │   ├── ejercicio2
+            │   │    ├── Makefile
+            │   │    ├── create_project.tcl
+            │   │    ├── globals.tcl
+            │   │    ├── update_project.tcl
+            │   │    └── ...
             │   ├── ejercicio3
+            │   │    ├── Makefile
+            │   │    ├── create_project.tcl
+            │   │    ├── globals.tcl
+            │   │    ├── update_project.tcl
+            │   │    └── ...
             │   └── ...
             ├── scripts
             │   └── ...
