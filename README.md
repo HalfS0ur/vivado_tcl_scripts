@@ -39,7 +39,7 @@ Para correr estas herramientas se necesita de:
   
 ## Estructura del proyecto:
 
-    ```
+    
     DIRECTORIO_DE_TRABAJO
             ├── build/
             │   ├── ejercicio1
@@ -76,7 +76,7 @@ Para correr estas herramientas se necesita de:
                 │    ├── *.bd
                 │    └── ...
                 └── ...
-    ```
+    
 
 ## Forma de uso:
 
