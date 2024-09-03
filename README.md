@@ -63,19 +63,10 @@ Para correr estas herramientas se necesita de:
             │   └── ...
             ├── scripts
             │   └── ...
-            └── src/                     # Tracked source files
-                ├── design
-                │    ├── *.v
-                │    └── *.vhd
-                ├── testbench
-                │    ├── *.v
-                │    └── *.vhd
-                ├── blockdesign
-                │    ├── ui
-                │    ├── ip
-                │    ├── *.bd
-                │    └── ...
-                └── ...
+            └── src/                     
+                └── REPOSITORIO_CLONADO/  # Archivos fuente rastreados
+                     ├── *.v
+                     └── *.vhd
     
 
 ## Forma de uso:
