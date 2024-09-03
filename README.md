@@ -40,13 +40,13 @@ Para correr estas herramientas se necesita de:
 ## Estructura del proyecto:
     ```
     DIRECTORIO_DE_TRABAJO
-            ├── build
+            ├── build/
             │   ├── ejercicio1
             │   │    ├── Makefile
             │   │    ├── create_project.tcl
             │   │    ├── globals.tcl
             │   │    ├── update_project.tcl
-            │   │    └── ...
+            │   │    └── ... #Archivos generados sin rastrear
             │   ├── ejercicio2
             │   │    ├── Makefile
             │   │    ├── create_project.tcl
@@ -62,7 +62,6 @@ Para correr estas herramientas se necesita de:
             │   └── ...
             ├── scripts
             │   └── ...
-            ├── project_name.tcl         # Project generator script
             ├── src/                     # Tracked source files
             │   ├── design
             │   │    ├── *.v
