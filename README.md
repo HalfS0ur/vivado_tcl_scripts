@@ -65,8 +65,10 @@ Para correr estas herramientas se necesita de:
             │   └── ...
             └── src/                     
                 └── REPOSITORIO_CLONADO/  # Archivos fuente rastreados
-                     ├── *.v
-                     └── *.vhd
+                     ├── ejercicio1/
+                     ├── ejercicio2/
+                     ├── ejercicio3/
+                     └── ...
     
 
 ## Forma de uso:
