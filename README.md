@@ -39,29 +39,30 @@ Para correr estas herramientas se necesita de:
   
 ## Estructura del proyecto:
     ```
-    PROJECT_NAME
-        ├── .git
-        ├── .gitignore
-        ├── project_name.tcl         # Project generator script
-        ├── src/                     # Tracked source files
-        │   ├── design
-        │   │    ├── *.v
-        │   │    └── *.vhd
-        │   ├── testbench
-        │   │    ├── *.v
-        │   │    └── *.vhd
-        │   ├── blockdesign
-        │   │    ├── ui
-        │   │    ├── ip
-        │   │    ├── *.bd
-        │   │    └── ...
-        │   └── ...
-        └── vivado_project/          # Untracked generated files
-            ├── project_name.xpr
-            ├── project_name.cache/
-            ├── project_name.hw/
-            ├── project_name.sim/
-            └── ...
+    DIRECTORIO_DE_TRABAJO
+            ├── build
+            ├── scripts
+            │   └── ...
+            ├── project_name.tcl         # Project generator script
+            ├── src/                     # Tracked source files
+            │   ├── design
+            │   │    ├── *.v
+            │   │    └── *.vhd
+            │   ├── testbench
+            │   │    ├── *.v
+            │   │    └── *.vhd
+            │   ├── blockdesign
+            │   │    ├── ui
+            │   │    ├── ip
+            │   │    ├── *.bd
+            │   │    └── ...
+            │   └── ...
+            └── vivado_project/          # Untracked generated files
+                ├── project_name.xpr
+                ├── project_name.cache/
+                ├── project_name.hw/
+                ├── project_name.sim/
+                └── ...
     ```
 
 ## Forma de uso:
