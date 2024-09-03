@@ -66,6 +66,9 @@ Para correr estas herramientas se necesita de:
             └── src/                     
                 └── REPOSITORIO_CLONADO/  # Archivos fuente rastreados
                      ├── ejercicio1/
+                     │    ├── testing/
+                     │    ├── synthesis/
+                     │    └── *.sv
                      ├── ejercicio2/
                      ├── ejercicio3/
                      └── ...
