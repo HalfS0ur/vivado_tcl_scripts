@@ -41,6 +41,10 @@ Para correr estas herramientas se necesita de:
     ```
     DIRECTORIO_DE_TRABAJO
             ├── build
+            │   ├── ejercicio1
+            │   ├── ejercicio2
+            │   ├── ejercicio3
+            │   └── ...
             ├── scripts
             │   └── ...
             ├── project_name.tcl         # Project generator script
