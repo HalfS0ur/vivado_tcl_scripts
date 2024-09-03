@@ -42,6 +42,11 @@ Para correr estas herramientas se necesita de:
     DIRECTORIO_DE_TRABAJO
             ├── build
             │   ├── ejercicio1
+            │   │    ├── Makefile
+            │   │    ├── create_project.tcl
+            │   │    ├── globals.tcl
+            │   │    ├── update_project.tcl
+            │   │    └── ...
             │   ├── ejercicio2
             │   ├── ejercicio3
             │   └── ...
