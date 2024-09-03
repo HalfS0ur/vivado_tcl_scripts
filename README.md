@@ -36,6 +36,8 @@ Para correr estas herramientas se necesita de:
     - Ejecutar `make -h`. Debe mostrar la ayuda de Make
     - Ejecutar `Vivado -h`. Debe mostrar la ayuda de Vivado.
     - (opcional) Ejecutar `gtkwave -h`. Debe mostrar la ayuda de Make
+  
+## Estructura del proyecto:
 
 ## Forma de uso:
 
